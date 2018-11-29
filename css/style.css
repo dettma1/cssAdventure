@@ -55,10 +55,19 @@ header {
 }
 
 .info_title{
-  color:#6e8e8aeb;
+  color:#3f73b4;
+  font-family: 'Righteous', cursive;
   margin-top: 25px;
   width: 100%
 }
+
+.res_title{
+  color:#3f73b4;
+  background: url("../img/palm-leaf.png") !important;
+  width: 100%;
+  font-family: 'Righteous', cursive;
+}
+
 
 .game_title{
   background: url("../img/gaming-pattern.png") !important;
@@ -93,6 +102,7 @@ header {
   font-size: 50px;
   margin-top: 100px;
   text-align: center;
+  font-family: 'Righteous', cursive;
   color: #414554;
 }
 
@@ -106,6 +116,12 @@ header {
   width: 100%;
   background-color: #D7A59C;
 }
+#section_research {
+  width: 100%;
+  background-color: #7D7B83;
+}
+
+
 #iconic{
   height: 300px;
 }
@@ -150,7 +166,7 @@ table td {
 }
 
 /* Game Canvas Properities */
-canvas#viewport { border: 1px solid black; width: 500px; height: 550px; }
+canvas#viewport { border: 1px solid black; width: 700px; height: 595px; }
 
 
 
