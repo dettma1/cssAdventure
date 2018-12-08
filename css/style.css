@@ -54,30 +54,42 @@ header {
   height: 250px;
 }
 
+p{
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+#manatee{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
 .info_title{
-  color:#3f73b4;
+  color:#434342;
   font-family: 'Righteous', cursive;
   margin-top: 25px;
   width: 100%
 }
 
 .res_title{
-  color:#3f73b4;
-  background: url("../img/palm-leaf.png") !important;
+  color:#335b63;
   width: 100%;
   font-family: 'Righteous', cursive;
 }
 
 
 .game_title{
-  background: url("../img/gaming-pattern.png") !important;
   height: 150px;
   font-family: 'Righteous', cursive;
 }
 
 #masthead {
   color: white;
-  background: /*linear-gradient(rgba(228, 160, 27,.5), rgba(0,0,0,0.4)),*/ url("../img/bananas.png");
+  background: /*linear-gradient(rgba(228, 160, 27,.5), rgba(0,0,0,0.4)),*/ url("../img/gaming-pattern.png");
   background-attachment: fixed;
   height: 300px; 
 }
@@ -85,7 +97,10 @@ header {
   font-size: 24px;
 }
 
-.col-12{
+.btn-primary{
+  background-color: #e0c784;
+  color: #414555;
+  border-color: #414555;
   
 }
 
@@ -108,7 +123,7 @@ header {
 
 #section_two {
   width:100%;
-  background-color: #fae2a1;
+  background-color: #d1ac48ad;
   color: #414554;
   bag
 }
@@ -118,7 +133,7 @@ header {
 }
 #section_research {
   width: 100%;
-  background-color: #7D7B83;
+  background-color: #335b6394;
 }
 
 
@@ -140,8 +155,7 @@ form .input-group {
   height: 40px;
 }
 footer {
-  color: white;
-  background-image: url("../img/bg/subtle_white_feathers.png");
+  background-color: #335b6394;
 
 }
 
@@ -166,7 +180,9 @@ table td {
 }
 
 /* Game Canvas Properities */
-canvas#viewport { border: 1px solid black; width: 700px; height: 595px; }
+canvas#viewport { border: 1px solid black; width: 1100px; height: 500px; }
+
+canvas#viewport2 { border: 1px solid black; width: 1100px; height: 600px; }
 
 
 
