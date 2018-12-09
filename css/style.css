@@ -1,5 +1,8 @@
 /*Page-wide CSS modifications*/
 
+.card{
+  margin: auto;
+}
 
 html {
 }
@@ -52,6 +55,8 @@ header {
 
 .rounded-circle {
   height: 250px;
+  display: block;
+  margin: auto;
 }
 
 p{
